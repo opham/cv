@@ -1,27 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <main-layout>
+    <curriculum-vitae />
+  </main-layout>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import { defineComponent } from 'vue';
+import MainLayout from './components/MainLayout.vue';
+import CurriculumVitae from './components/CurriculumVitae.vue';
 
 export default defineComponent({
-  name: "App",
+  name: 'App',
   components: {
-    HelloWorld,
-  },
+    MainLayout,
+    CurriculumVitae
+  }
 });
 </script>
 
 <style lang="scss">
+@import './assets/scss/variables';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  background: $bs-gray-dark;
 }
 </style>

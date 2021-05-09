@@ -1,0 +1,57 @@
+@import './variables';
+
+html {
+    body {
+        height: 100vh;
+        min-height: 100%;
+        display: flex;
+        flex-flow: column;
+        color: $bs-dark;
+        background: $bs-gray-dark;
+    }
+}
+
+h1, h3, h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: .9rem;
+}
+
+h2 {
+    color: $bs-gray;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+    }
+}
+
+.card {
+    background: rgba(255, 255, 255, .7);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-size: .8rem;
+}
+
+
+.block-title {
+    font-weight: bold;
+    text-align: left;
+    &::after {
+        content: '';
+        display: block;
+        height: 1px;
+        background-color: $bs-dark;
+    }
+}
+
+@media print {
+    .container {
+        min-width: 100%;
+    }
+}
+
