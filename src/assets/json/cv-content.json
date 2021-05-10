@@ -65,7 +65,7 @@
     "experiences": [
         {
             "client": "Timwi",
-            "period": "Janvier 2018",
+            "period": "Janvier 2018 - ...",
             "role": "Développeur frontend",
             "missionStrengths": [
                 "Bon environnement technique",
@@ -79,7 +79,7 @@
                 },
                 {
                     "title": "18 mois | MyKineXo",
-                    "description": "Application mobile/web pour les adhérents du Cerfrance. Coffre fort numérique facilitant la gestion des entreprises des adhérents basée sur une solution tierce: GérerMesAffaires (équipe : ~ 10 personnes )"
+                    "description": "Application mobile/web pour les adhérents du Cerfrance. Coffre fort numérique facilitant la gestion des entreprises des adhérents. Application basée sur une solution tierce: GérerMesAffaires (équipe : ~ 10 personnes )"
                 },
                 {
                     "title": "6 mois | CCR (Calcul coût de revient)",
@@ -139,7 +139,7 @@
                 },
                 {
                     "title": "3 mois | Optimum",
-                    "description": "Développement du site Optimum, maintenance applicative"
+                    "description": "Développement du site web Optimum, maintenance applicative"
                 },
                 {
                     "title": "12 mois | Optus / Singtel",
@@ -171,15 +171,15 @@
             "projects": [
                 {
                     "title": "3 mois | Giovanni Ferrari",
-                    "description": "Site pour le fournisseur de fromage italien"
+                    "description": "Site web pour le fournisseur de fromage italien"
                 },
                 {
                     "title": "4 mois | Abeille royale Guerlain - Développeur frontend",
-                    "description": "Site présentant le produit Abeille Royale de Guerlain"
+                    "description": "Site web présentant le produit Abeille Royale de Guerlain"
                 },
                 {
                     "title": "3 mois  | Diesel on Tour - Stagiaire",
-                    "description": "Site faisant la promotion d’un évènement musical à Londres (Bataille de DJ). Projet en plusieurs étapes suivant la chronologie de l’évenemment: Teaser, présentation des artistes avec système de votes pour en sélectionner 2, Livestream, Présentation du vainqueur."
+                    "description": "Site web faisant la promotion d’un évènement musical à Londres (Bataille de DJ). Projet en plusieurs étapes suivant la chronologie de l’évenemment: Teaser, présentation des artistes avec système de votes pour en sélectionner 2, Livestream, Présentation du vainqueur."
                 },
                 {
                     "title": "2 mois | ShootTheCookies - McVitie’s - Stagiaire",
@@ -187,7 +187,7 @@
                 },
                 {
                     "title": "3 mois | Rbourgeois - Stagiaire",
-                    "description": "Développement d’un site vitrine pour l’industriel RBourgeois"
+                    "description": "Développement d’un site web vitrine pour l’industriel RBourgeois"
                 }
             ],
             "tasks": [
