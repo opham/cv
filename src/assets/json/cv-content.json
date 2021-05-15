@@ -60,6 +60,12 @@
                 "name": "Cambridge FCE",
                 "grade": "Grade A"
             }
+        ],
+        "hobbies": [
+            "Voyages",
+            "Dessin / peinture",
+            "Jeux vidéo / jeux de société",
+            "Musique (8 ans de clarinette)"
         ]
     },
     "experiences": [
@@ -79,11 +85,11 @@
                 },
                 {
                     "title": "18 mois | MyKineXo",
-                    "description": "Application mobile/web pour les adhérents du Cerfrance. Coffre fort numérique facilitant la gestion des entreprises des adhérents basée sur une solution tierce: GérerMesAffaires (équipe : ~ 10 personnes )"
+                    "description": "Application mobile/web pour les adhérents du Cerfrance. Coffre fort numérique facilitant la gestion des entreprises des adhérents. Application basée sur une solution tierce: GérerMesAffaires (équipe : ~ 10 personnes )"
                 },
                 {
                     "title": "6 mois | CCR (Calcul coût de revient)",
-                    "description": "Application web permettant le calcul du coût de revient d’adhérents du Cerfrance. (équipe: 3 personnes) "
+                    "description": "Application web permettant le calcul du coût de revient des adhérents du Cerfrance. (équipe: 3 personnes) "
                 },
                 {
                     "title": "5 mois  | KineXo ",
@@ -108,7 +114,7 @@
                 "Frameworks : Flutter, Vuejs 3, Vuejs 2, Angular 6,  SpringBoot",
                 "Base de Données : PostgreSQL",
                 "Outils : Suite Atlassian, Keycloak, RabbitMq, Rancher, Docker, VSC, Android Studio Dbeaver, Postman.",
-                "Méthode : Scrum"
+                "Méthodologie : Scrum"
             ]
         },
         {
@@ -123,7 +129,7 @@
             "projects": [
                 {
                     "title": "3 mois  | TEF Argentina",
-                    "description": "Développement d’un portail web responsive pour Telefonica Argentina, implémentant des flows l’achat/réservation de plans/appareils, et autres services client. Projet international en intégration continue composé de plusieurs équipes basées en France, Israel et Inde"
+                    "description": "Développement d’un portail web responsive pour Telefonica Argentina, implémentant des flows utilisateurs: l’achat/réservation de plans/appareils, et autres services client. Projet international composé de plusieurs équipes basées en France, Israel et Inde"
                 },
                 {
                     "title": "1 mois | TEF Peru",
@@ -156,7 +162,7 @@
                 "Frameworks : React/Redux, AngularJs, Ractive",
                 "Base de Données : MySQL",
                 "Outils : AEM, Git, Perforce, Webstorm, VSC, Android Studio, Postman",
-                "Méthode : Scrum"
+                "Méthodologie : Scrum"
             ]
         },
         {
@@ -199,7 +205,7 @@
                 "Frameworks : JQuery",
                 "Base de Données : MySQL",
                 "Outils : Drupal, Git, Sublime",
-                "Compétences Fonctionnelles : Développement de la UI, Conception avec le designer de l’entreprise"
+                "Compétences fonctionnelles : Développement de la UI, Conception avec le designer de l’entreprise"
             ]
         }
     ]

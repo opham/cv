@@ -1,5 +1,5 @@
 <template>
-  <div class="profile">
+  <div class="profile page">
     <h2 class="mb-3">{{ $t('PROFILE.TITLE') }}</h2>
     <section class="row mb-3">
       <div class="col-5">
@@ -14,14 +14,30 @@
               years: profile.yearsOfExperience
             })
           }}</span>
+          <a
+            class="github-link mt-3 d-inline-flex align-items-center"
+            target="_blank"
+            href="https://github.com/opham/cv"
+            ><img
+              class="me-2"
+              src="../assets/img/github-logo.png"
+              alt="github"
+            />
+            <span>https://github.com/opham/cv</span></a
+          >
         </div>
       </div>
       <div class="col-7">
         <div class="card p-3 d-flex flex-column">
           <h3 class="block-title mb-2">{{ $t('PROFILE.STRENGTHS') }}</h3>
-          <div>
-            {{ profile.strengths.join(' - ') }}
-          </div>
+          <ul>
+            <li
+              v-for="(strength, index) in profile.strengths"
+              :key="`strength-${index}`"
+            >
+              {{ strength }}
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -75,7 +91,7 @@
       </div>
     </section>
     <section class="row mb-3">
-      <div class="col-8">
+      <div class="col-12">
         <div class="card p-3 d-flex flex-column">
           <h3 class="block-title mb-2">{{ $t('PROFILE.DIPLOMAS') }}</h3>
           <div
@@ -85,6 +101,21 @@
           >
             <div class="col-2 fw-bold">{{ diploma.year }}:</div>
             <div class="col-10">{{ diploma.title }}</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row mb-3">
+      <div class="col-8">
+        <div class="card p-3 d-flex flex-column">
+          <h3 class="block-title mb-2">{{ $t('PROFILE.CERTIFICATIONS') }}</h3>
+          <div
+            class="row g-2"
+            v-for="(certification, index) in profile.certifications"
+            :key="`certifications-${index}`"
+          >
+            <div class="col-5 fw-bold">{{ certification.name }}:</div>
+            <div class="col-7">{{ certification.grade }}</div>
           </div>
         </div>
       </div>
@@ -105,18 +136,20 @@
     <section class="row">
       <div class="col-12">
         <div class="card p-3 d-flex flex-column">
-          <h3 class="block-title mb-2">{{ $t('PROFILE.CERTIFICATIONS') }}</h3>
-          <div
-            class="row g-2"
-            v-for="(certification, index) in profile.certifications"
-            :key="`certifications-${index}`"
-          >
-            <div class="col-2 fw-bold">{{ certification.name }}:</div>
-            <div class="col-10">{{ certification.grade }}</div>
-          </div>
+          <h3 class="block-title mb-2">{{ $t('PROFILE.HOBBIES') }}</h3>
+          <ul>
+            <li
+              v-for="(hobbie, index) in profile.hobbies"
+              :key="`hobbie-${index}`"
+            >
+              {{ hobbie }}
+            </li>
+          </ul>
         </div>
       </div>
     </section>
+
+    <div class="github-link mb-3"></div>
   </div>
 </template>
 
@@ -134,3 +167,16 @@ export default defineComponent({
   }
 });
 </script>
+
+<style lang="scss" scoped>
+@import '../assets/scss/variables';
+
+a.github-link {
+  text-decoration: none;
+  color: $bs-dark;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+</style>

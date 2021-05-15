@@ -13,6 +13,7 @@ export class Profile {
   diplomas: Diploma[];
   certifications: Certification[];
   spokenLanguages: string[];
+  hobbies: string[];
 
   constructor({
     lastName,
@@ -24,7 +25,8 @@ export class Profile {
     diplomas,
     certifications,
     yearsOfExperience,
-    spokenLanguages
+    spokenLanguages,
+    hobbies
   }: IProfile) {
     this.lastName = lastName;
     this.firstName = firstName;
@@ -38,6 +40,7 @@ export class Profile {
       (certif: ICertification) => new Certification(certif)
     );
     this.spokenLanguages = spokenLanguages;
+    this.hobbies = hobbies;
   }
 
   get fullName(): string {
