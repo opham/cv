@@ -2,7 +2,7 @@
   <div class="experiences">
     <h2 class="mb-3">{{ $t('EXPERIENCES.TITLE') }}</h2>
     <section
-      class="mb-3"
+      class="mb-3 page"
       v-for="(experience, index) in experiences"
       :key="`experience-${index}`"
     >
@@ -44,8 +44,8 @@
             <hr v-if="index < experience.projects.length - 1" />
           </template>
         </div>
-        <div class="row">
-          <div class="col-6">
+        <div class="row g-3">
+          <div class="col-12 col-lg-6">
             <h4 class="block-title fw-bold">
               {{ $t('EXPERIENCES.TASKS') }}
             </h4>
@@ -58,7 +58,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <h4 class="block-title fw-bold">
               {{ $t('EXPERIENCES.ENVIRONMENT_HIGHLIGHTS') }}
             </h4>

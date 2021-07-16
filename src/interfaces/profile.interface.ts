@@ -11,4 +11,5 @@ export interface IProfile {
   diplomas: IDiploma[];
   certifications: ICertification[];
   spokenLanguages: string[];
+  hobbies: string[];
 }

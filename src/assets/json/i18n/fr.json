@@ -6,13 +6,14 @@
         "SKILLS": "Compétences",
         "DIPLOMAS": "Diplômes",
         "SPOKEN_LANGUAGES": "Langues",
-        "CERTIFICATIONS": "Certifications"
+        "CERTIFICATIONS": "Certifications",
+        "HOBBIES": "Hobbies"
     },
     "EXPERIENCES": {
         "TITLE": "Expériences",
         "STRENGTHS": "Points forts des projets",
         "PROJECTS": "Projets",
-        "ENVIRONMENT_HIGHLIGHTS": "Environnements",
+        "ENVIRONMENT_HIGHLIGHTS": "Environnement",
         "TASKS": "Tâches"
     },
     "COMMONS": {

@@ -60,6 +60,12 @@
                 "name": "Cambridge FCE",
                 "grade": "Grade A"
             }
+        ],
+        "hobbies": [
+            "Voyages",
+            "Dessin / peinture",
+            "Jeux vidéo / jeux de société",
+            "Musique (8 ans de clarinette)"
         ]
     },
     "experiences": [
@@ -83,7 +89,7 @@
                 },
                 {
                     "title": "6 mois | CCR (Calcul coût de revient)",
-                    "description": "Application web permettant le calcul du coût de revient d’adhérents du Cerfrance. (équipe: 3 personnes) "
+                    "description": "Application web permettant le calcul du coût de revient des adhérents du Cerfrance. (équipe: 3 personnes) "
                 },
                 {
                     "title": "5 mois  | KineXo ",
@@ -100,15 +106,15 @@
             ],
             "tasks": [
                 "Mise en place de socles applicatifs front",
-                "Développement de la UI (conception / composants)",
+                "Développement de UI (conception / composants)",
                 "Maintenance applicative, correction de bugs"
             ],
             "environmentHighlights": [
-                "Langages : Javascript/Typescript HTML, SASS, Dart,  Java",
+                "Langages : Javascript/Typescript HTML, SCSS, Dart,  Java",
                 "Frameworks : Flutter, Vuejs 3, Vuejs 2, Angular 6,  SpringBoot",
                 "Base de Données : PostgreSQL",
                 "Outils : Suite Atlassian, Keycloak, RabbitMq, Rancher, Docker, VSC, Android Studio Dbeaver, Postman.",
-                "Méthode : Scrum"
+                "Méthodologie : Scrum"
             ]
         },
         {
@@ -123,7 +129,7 @@
             "projects": [
                 {
                     "title": "3 mois  | TEF Argentina",
-                    "description": "Développement d’un portail web responsive pour Telefonica Argentina, implémentant des flows l’achat/réservation de plans/appareils, et autres services client. Projet international en intégration continue composé de plusieurs équipes basées en France, Israel et Inde"
+                    "description": "Développement d’un portail web responsive pour Telefonica Argentina, implémentant des flows utilisateurs: l’achat/réservation de plans/appareils, et autres services clients. Projet international composé de plusieurs équipes basées en France, Israel et Inde"
                 },
                 {
                     "title": "1 mois | TEF Peru",
@@ -143,20 +149,20 @@
                 },
                 {
                     "title": "12 mois | Optus / Singtel",
-                    "description": "Développement des portails web Singtel/Optus (télécoms Australien et Singapourien). Projet international en intégration continue composé de plusieurs équipes basées en Australie, France, Irlande, Israel et Inde. (2.5 mois sur site en Australie chez le client Optus)"
+                    "description": "Développement des portails web Optus/Singtel (télécoms Australien et Singapourien). Projet international en intégration continue composé de plusieurs équipes basées en Australie, France, Irlande, Israel et Inde. (2.5 mois sur site en Australie chez le client Optus)"
                 }
             ],
             "tasks": [
                 "Mise en place de socles applicatifs front",
-                "Développement de la UI (conception / composants)",
+                "Développement de UI (conception / composants)",
                 "Maintenance applicative, correction de bugs"
             ],
             "environmentHighlights": [
-                "Langages : Javascript HTML, SASS, Dart, Java",
+                "Langages : Javascript HTML, SCSS, Dart, Java",
                 "Frameworks : React/Redux, AngularJs, Ractive",
                 "Base de Données : MySQL",
                 "Outils : AEM, Git, Perforce, Webstorm, VSC, Android Studio, Postman",
-                "Méthode : Scrum"
+                "Méthodologie : Scrum"
             ]
         },
         {
@@ -191,7 +197,7 @@
                 }
             ],
             "tasks": [
-                "Développement de la UI",
+                "Développement de UI",
                 "Configuration de CMS"
             ],
             "environmentHighlights": [
@@ -199,7 +205,7 @@
                 "Frameworks : JQuery",
                 "Base de Données : MySQL",
                 "Outils : Drupal, Git, Sublime",
-                "Compétences Fonctionnelles : Développement de la UI, Conception avec le designer de l’entreprise"
+                "Compétences fonctionnelles : Développement de UI, Conception avec le designer de l’entreprise"
             ]
         }
     ]
