@@ -5,6 +5,9 @@ export interface IProfile {
   lastName: string;
   birthDate: string;
   title: string;
+  email: string;
+  mobile: string;
+  github: string;
   yearsOfExperience: number;
   strengths: string[];
   skills: ISkills;

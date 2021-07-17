@@ -14,16 +14,18 @@
               years: profile.yearsOfExperience
             })
           }}</span>
+          <span>{{ profile.email }}</span>
+          <span>{{ profile.mobile }}</span>
           <a
             class="github-link mt-3 d-inline-flex align-items-center"
             target="_blank"
-            href="https://github.com/opham/cv"
+            :href="profile.github"
             ><img
               class="me-2"
               src="../assets/img/github-logo.png"
               alt="github"
             />
-            <span>https://github.com/opham/cv</span></a
+            <span>{{ profile.github }}</span></a
           >
         </div>
       </div>

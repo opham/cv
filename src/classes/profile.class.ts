@@ -7,6 +7,9 @@ export class Profile {
   lastName: string;
   birthDate: Date;
   title: string;
+  email: string;
+  mobile: string;
+  github: string;
   yearsOfExperience: number;
   strengths: string[];
   skills: Skills;
@@ -20,6 +23,9 @@ export class Profile {
     firstName,
     birthDate,
     title,
+    email,
+    mobile,
+    github,
     strengths,
     skills,
     diplomas,
@@ -32,6 +38,9 @@ export class Profile {
     this.firstName = firstName;
     this.birthDate = new Date(birthDate);
     this.title = title;
+    this.email = email;
+    this.mobile = mobile;
+    this.github = github;
     this.yearsOfExperience = yearsOfExperience;
     this.strengths = strengths;
     this.skills = new Skills(skills);

@@ -1,212 +1,203 @@
 {
-    "profile": {
-        "title": "Ingénieur développeur frontend",
-        "firstName": "Olivier",
-        "lastName": "Pham Dang",
-        "birthDate": "1989-11-23",
-        "yearsOfExperience": 7,
-        "strengths": [
-            "Curieux",
-            "impliqué",
-            "Esprit d'équipe",
-            "Perfectionniste"
-        ],
-        "skills": {
-            "sectors": [
-                "Agriculture",
-                "Comptabilité",
-                "Télécoms"
-            ],
-            "languages": [
-                "Javascript/TypeScript (Vuejs, NuxtJs, React, Angular)",
-                "Dart (Flutter)",
-                "HTML",
-                "CSS",
-                "SCSS",
-                "LESS"
-            ],
-            "operatingSystems": [ "LINUX (Ubuntu)","Windows" ],
-            "databases": ["PostgreSQL", "MySQL"],
-            "tools": [
-                "Visual Studio Code",
-                "Android Studio",
-                "Git",
-                "Webstorm",
-                "Postman",
-                "Rancher",
-                "Docker"
-            ],
-            "functionalSkills": [
-                "Développement de UI",
-                "Conception de composants",
-                "maintenance applicative",
-                "CI"
-            ],
-            "methodologies": [ "Agile (Scrum)" ]
-        },
-        "diplomas": [
-            {
-                "year": "2015",
-                "title": "Diplôme d’ingénieur (ESEO) spécialisation Système d’information"
-            }
-        ],
-        "spokenLanguages": [ "Anglais, parlé et écrit"],
-        "certifications": [
-            {
-                "name": "TOEIC",
-                "grade": "925"
-            },
-            {
-                "name": "Cambridge FCE",
-                "grade": "Grade A"
-            }
-        ],
-        "hobbies": [
-            "Voyages",
-            "Dessin / peinture",
-            "Jeux vidéo / jeux de société",
-            "Musique (8 ans de clarinette)"
-        ]
+  "profile": {
+    "title": "Ingénieur développeur frontend",
+    "firstName": "Olivier",
+    "lastName": "Pham Dang",
+    "birthDate": "1989-11-23",
+    "email": "ophamdang@gmail.com",
+    "mobile": "+33 7 89 92 14 24",
+    "github": "https://github.com/opham/cv",
+    "yearsOfExperience": 7,
+    "strengths": ["Curieux", "impliqué", "Esprit d'équipe", "Perfectionniste"],
+    "skills": {
+      "sectors": ["Agriculture", "Comptabilité", "Télécoms"],
+      "languages": [
+        "Javascript/TypeScript (Vuejs, NuxtJs, React, Angular)",
+        "Dart (Flutter)",
+        "HTML",
+        "CSS",
+        "SCSS",
+        "LESS"
+      ],
+      "operatingSystems": ["LINUX (Ubuntu)", "Windows"],
+      "databases": ["PostgreSQL", "MySQL"],
+      "tools": [
+        "Visual Studio Code",
+        "Android Studio",
+        "Git",
+        "Webstorm",
+        "Postman",
+        "Rancher",
+        "Docker"
+      ],
+      "functionalSkills": [
+        "Développement de UI",
+        "Conception de composants",
+        "maintenance applicative",
+        "CI"
+      ],
+      "methodologies": ["Agile (Scrum)"]
     },
-    "experiences": [
-        {
-            "client": "Timwi",
-            "period": "Janvier 2018 - ...",
-            "role": "Développeur frontend",
-            "missionStrengths": [
-                "Bon environnement technique",
-                "Bonnes équipes",
-                "Domaine de l’agriculture"
-            ],
-            "projects": [
-                {
-                    "title": "03/2021 - …  | Suivi d’activités",
-                    "description": "Application web pour le Cerfrance (comptables axés sur l’agriculture) permettant le suivi d’activités de ses collaborateurs. (équipe: 3 personnes)"
-                },
-                {
-                    "title": "18 mois | MyKineXo",
-                    "description": "Application mobile/web pour les adhérents du Cerfrance. Coffre fort numérique facilitant la gestion des entreprises des adhérents. Application basée sur une solution tierce: GérerMesAffaires (équipe : ~ 10 personnes )"
-                },
-                {
-                    "title": "6 mois | CCR (Calcul coût de revient)",
-                    "description": "Application web permettant le calcul du coût de revient des adhérents du Cerfrance. (équipe: 3 personnes) "
-                },
-                {
-                    "title": "5 mois  | KineXo ",
-                    "description": "Suite de modules/ applications web pour le Cerfrance (Suivi client, édition de devis, facturation et suivi de production). (équipe : ~ 10 personnes)"
-                },
-                {
-                    "title": "1 mois | BCEL ouest – Tableau de bord",
-                    "description": "Application mobile/web permettant le suivi des exploitations laitières. Calculs et présentation des données / indicateurs facilitant la gestion."
-                },
-                {
-                    "title": "8 mois | Farmeo - CQPAC",
-                    "description": "Application web facilitant la déclaration de la Télépac. (Aides pour les agriculteurs calculées en fonction des données d’une exploitation) (équipe: ~ 4 personnes)"
-                }
-            ],
-            "tasks": [
-                "Mise en place de socles applicatifs front",
-                "Développement de UI (conception / composants)",
-                "Maintenance applicative, correction de bugs"
-            ],
-            "environmentHighlights": [
-                "Langages : Javascript/Typescript HTML, SCSS, Dart,  Java",
-                "Frameworks : Flutter, Vuejs 3, Vuejs 2, Angular 6,  SpringBoot",
-                "Base de Données : PostgreSQL",
-                "Outils : Suite Atlassian, Keycloak, RabbitMq, Rancher, Docker, VSC, Android Studio Dbeaver, Postman.",
-                "Méthodologie : Scrum"
-            ]
-        },
-        {
-            "client": "Amdocs",
-            "period": "2015 - Dec 2017",
-            "role": "Développeur frontend",
-            "missionStrengths": [
-                "International",
-                "Bonnes équipes",
-                "Secteur des télécoms"
-            ],
-            "projects": [
-                {
-                    "title": "3 mois  | TEF Argentina",
-                    "description": "Développement d’un portail web responsive pour Telefonica Argentina, implémentant des flows utilisateurs: l’achat/réservation de plans/appareils, et autres services clients. Projet international composé de plusieurs équipes basées en France, Israel et Inde"
-                },
-                {
-                    "title": "1 mois | TEF Peru",
-                    "description": "Participation au scoping pour la refonte d’une application hybride chez le client. (2 semaines à Lima sur site)"
-                },
-                {
-                    "title": "6 mois | Control-it",
-                    "description": "PoC → Application mobile : Développement d’une application mobile android avec webview contrôlant la consommation de donnée pour chaque application installée sur l’appareil. (équipe de 3 personnes)"
-                },
-                {
-                    "title": "2 mois  | Millenial",
-                    "description": "PoC : Développement d’une application mobile hybride permettant l’achat de forfait télécom via empreinte digitale. (équipe de 3 personnes)"
-                },
-                {
-                    "title": "3 mois | Optimum",
-                    "description": "Développement du site web Optimum, maintenance applicative"
-                },
-                {
-                    "title": "12 mois | Optus / Singtel",
-                    "description": "Développement des portails web Optus/Singtel (télécoms Australien et Singapourien). Projet international en intégration continue composé de plusieurs équipes basées en Australie, France, Irlande, Israel et Inde. (2.5 mois sur site en Australie chez le client Optus)"
-                }
-            ],
-            "tasks": [
-                "Mise en place de socles applicatifs front",
-                "Développement de UI (conception / composants)",
-                "Maintenance applicative, correction de bugs"
-            ],
-            "environmentHighlights": [
-                "Langages : Javascript HTML, SCSS, Dart, Java",
-                "Frameworks : React/Redux, AngularJs, Ractive",
-                "Base de Données : MySQL",
-                "Outils : AEM, Git, Perforce, Webstorm, VSC, Android Studio, Postman",
-                "Méthodologie : Scrum"
-            ]
-        },
-        {
-            "client": "Mediasia Interactive",
-            "period": "Entre 2013-2015 - 15 mois",
-            "role": "Stagiaire frontend, puis développeur frontend",
-            "missionStrengths": [
-                "Shanghai - International",
-                "Bonnes équipe / Start-up",
-                "Agence web"
-            ],
-            "projects": [
-                {
-                    "title": "3 mois | Giovanni Ferrari",
-                    "description": "Site web pour le fournisseur de fromage italien"
-                },
-                {
-                    "title": "4 mois | Abeille royale Guerlain - Développeur frontend",
-                    "description": "Site web présentant le produit Abeille Royale de Guerlain"
-                },
-                {
-                    "title": "3 mois  | Diesel on Tour - Stagiaire",
-                    "description": "Site web faisant la promotion d’un évènement musical à Londres (Bataille de DJ). Projet en plusieurs étapes suivant la chronologie de l’évenemment: Teaser, présentation des artistes avec système de votes pour en sélectionner 2, Livestream, Présentation du vainqueur."
-                },
-                {
-                    "title": "2 mois | ShootTheCookies - McVitie’s - Stagiaire",
-                    "description": "Développement d’extension web Chrome/Firefox couplé à un site vitrine présentant le concept."
-                },
-                {
-                    "title": "3 mois | Rbourgeois - Stagiaire",
-                    "description": "Développement d’un site web vitrine pour l’industriel RBourgeois"
-                }
-            ],
-            "tasks": [
-                "Développement de UI",
-                "Configuration de CMS"
-            ],
-            "environmentHighlights": [
-                "Langages : Javascript HTML, LESS,  PhP",
-                "Frameworks : JQuery",
-                "Base de Données : MySQL",
-                "Outils : Drupal, Git, Sublime",
-                "Compétences fonctionnelles : Développement de UI, Conception avec le designer de l’entreprise"
-            ]
-        }
+    "diplomas": [
+      {
+        "year": "2015",
+        "title": "Diplôme d’ingénieur (ESEO) spécialisation Système d’information"
+      }
+    ],
+    "spokenLanguages": ["Anglais, parlé et écrit"],
+    "certifications": [
+      {
+        "name": "TOEIC",
+        "grade": "925"
+      },
+      {
+        "name": "Cambridge FCE",
+        "grade": "Grade A"
+      }
+    ],
+    "hobbies": [
+      "Voyages",
+      "Dessin / peinture",
+      "Jeux vidéo / jeux de société",
+      "Musique (8 ans de clarinette)"
     ]
+  },
+  "experiences": [
+    {
+      "client": "Timwi",
+      "period": "Janvier 2018 - Juillet 2021",
+      "role": "Développeur frontend",
+      "missionStrengths": [
+        "Bon environnement technique",
+        "Bonnes équipes",
+        "Domaine de l’agriculture"
+      ],
+      "projects": [
+        {
+          "title": "4 mois | Suivi d’activités",
+          "description": "Application web pour le Cerfrance (comptables axés sur l’agriculture) permettant le suivi d’activités de ses collaborateurs. (équipe: 3 personnes)"
+        },
+        {
+          "title": "18 mois | MyKineXo",
+          "description": "Application mobile/web pour les adhérents du Cerfrance. Coffre fort numérique facilitant la gestion des entreprises des adhérents. Application basée sur une solution tierce: GérerMesAffaires (équipe : ~ 10 personnes )"
+        },
+        {
+          "title": "6 mois | CCR (Calcul coût de revient)",
+          "description": "Application web permettant le calcul du coût de revient des adhérents du Cerfrance. (équipe: 3 personnes) "
+        },
+        {
+          "title": "5 mois  | KineXo ",
+          "description": "Suite de modules/ applications web pour le Cerfrance (Suivi client, édition de devis, facturation et suivi de production). (équipe : ~ 10 personnes)"
+        },
+        {
+          "title": "1 mois | BCEL ouest – Tableau de bord",
+          "description": "Application mobile/web permettant le suivi des exploitations laitières. Calculs et présentation des données / indicateurs facilitant la gestion."
+        },
+        {
+          "title": "8 mois | Farmeo - CQPAC",
+          "description": "Application web facilitant la déclaration de la Télépac. (Aides pour les agriculteurs calculées en fonction des données d’une exploitation) (équipe: ~ 4 personnes)"
+        }
+      ],
+      "tasks": [
+        "Mise en place de socles applicatifs front",
+        "Développement de UI (conception / composants)",
+        "Maintenance applicative, correction de bugs"
+      ],
+      "environmentHighlights": [
+        "Langages : Javascript/Typescript HTML, SCSS, Dart,  Java",
+        "Frameworks : Flutter, Vuejs 3, Vuejs 2, Angular 6,  SpringBoot",
+        "Base de Données : PostgreSQL",
+        "Outils : Suite Atlassian, Keycloak, RabbitMq, Rancher, Docker, VSC, Android Studio Dbeaver, Postman.",
+        "Méthodologie : Scrum"
+      ]
+    },
+    {
+      "client": "Amdocs",
+      "period": "2015 - Dec 2017",
+      "role": "Développeur frontend",
+      "missionStrengths": [
+        "International",
+        "Bonnes équipes",
+        "Secteur des télécoms"
+      ],
+      "projects": [
+        {
+          "title": "3 mois  | TEF Argentina",
+          "description": "Développement d’un portail web responsive pour Telefonica Argentina, implémentant des flows utilisateurs: l’achat/réservation de plans/appareils, et autres services clients. Projet international composé de plusieurs équipes basées en France, Israel et Inde"
+        },
+        {
+          "title": "1 mois | TEF Peru",
+          "description": "Participation au scoping pour la refonte d’une application hybride chez le client. (2 semaines à Lima sur site)"
+        },
+        {
+          "title": "6 mois | Control-it",
+          "description": "PoC → Application mobile : Développement d’une application mobile android avec webview contrôlant la consommation de données pour chaque application installée sur l’appareil. (équipe de 3 personnes)"
+        },
+        {
+          "title": "2 mois  | Millenial",
+          "description": "PoC : Développement d’une application mobile hybride permettant l’achat de forfait télécom via empreinte digitale. (équipe de 3 personnes)"
+        },
+        {
+          "title": "3 mois | Optimum",
+          "description": "Développement du site web Optimum, maintenance applicative"
+        },
+        {
+          "title": "12 mois | Optus / Singtel",
+          "description": "Développement des portails web Optus/Singtel (télécoms Australien et Singapourien). Projet international en intégration continue composé de plusieurs équipes basées en Australie, France, Irlande, Israel et Inde. (2.5 mois sur site en Australie chez le client Optus)"
+        }
+      ],
+      "tasks": [
+        "Mise en place de socles applicatifs front",
+        "Développement de UI (conception / composants)",
+        "Maintenance applicative, correction de bugs"
+      ],
+      "environmentHighlights": [
+        "Langages : Javascript HTML, SCSS, Dart, Java",
+        "Frameworks : React/Redux, AngularJs, Ractive",
+        "Base de Données : MySQL",
+        "Outils : AEM, Git, Perforce, Webstorm, VSC, Android Studio, Postman",
+        "Méthodologie : Scrum"
+      ]
+    },
+    {
+      "client": "Mediasia Interactive",
+      "period": "Entre 2013-2015 - 15 mois",
+      "role": "Stagiaire frontend, puis développeur frontend",
+      "missionStrengths": [
+        "Shanghai - International",
+        "Bonnes équipe / Start-up",
+        "Agence web"
+      ],
+      "projects": [
+        {
+          "title": "3 mois | Giovanni Ferrari",
+          "description": "Site web pour le fournisseur de fromage italien"
+        },
+        {
+          "title": "4 mois | Abeille royale Guerlain - Développeur frontend",
+          "description": "Site web présentant le produit Abeille Royale de Guerlain"
+        },
+        {
+          "title": "3 mois  | Diesel on Tour - Stagiaire",
+          "description": "Site web faisant la promotion d’un évènement musical à Londres (Bataille de DJ). Projet en plusieurs étapes suivant la chronologie de l’événement: Teaser, présentation des artistes avec système de votes pour en sélectionner 2, Livestream, Présentation du vainqueur."
+        },
+        {
+          "title": "2 mois | ShootTheCookies - McVitie’s - Stagiaire",
+          "description": "Développement d’extension web Chrome/Firefox couplé à un site vitrine présentant le concept."
+        },
+        {
+          "title": "3 mois | Rbourgeois - Stagiaire",
+          "description": "Développement d’un site web vitrine pour l’industriel RBourgeois"
+        }
+      ],
+      "tasks": ["Développement de UI", "Configuration de CMS"],
+      "environmentHighlights": [
+        "Langages : Javascript HTML, LESS,  PhP",
+        "Frameworks : JQuery",
+        "Base de Données : MySQL",
+        "Outils : Drupal, Git, Sublime",
+        "Compétences fonctionnelles : Développement de UI, Conception avec le designer de l’entreprise"
+      ]
+    }
+  ]
 }
